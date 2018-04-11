@@ -1,0 +1,18 @@
+@import '_variables.scss';
+@import '_nav.scss';
+body{
+	margin: 0;
+	padding: 0;
+}
+#app{
+	width: 100%;
+	// @media screen and (min-width: $sm-point){
+	// 	max-width: $sm-point;
+	// }
+	// @media screen and (min-width: $md-point){
+	// 	max-width: $md-point;
+	// }
+	// @media screen and (min-width: $lg-point){
+	// 	max-width: $lg-point;
+	// }
+}

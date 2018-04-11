@@ -1,0 +1,20 @@
+header{
+	background-color: $ab-blue;
+	display: block;
+	overflow: hidden;
+	padding: 0 15px;
+	nav{
+		float: right;
+		display: inline-block;
+		a{
+			color: $ab-light-grey;
+			text-decoration: none;
+			padding: 10px 12px;
+			display: inline-block;
+			&.router-link-exact-active{
+				color: $ab-light-blue;
+				background-color: $ab-white;
+			}
+		}
+	}
+}
